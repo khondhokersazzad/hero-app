@@ -26,7 +26,7 @@ const AppDetails = () => {
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10 bg-white">
+    <div className="max-w-7xl mx-auto px-6 py-10 bg-white">
       
       {/* Header */}
       <div className="flex gap-6 border-b pb-6">

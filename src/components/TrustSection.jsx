@@ -3,7 +3,7 @@ import React from 'react';
 const TrustSection = () => {
   return (
     <section className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-16">
-      <div className="max-w-6xl mx-auto px-6 text-center text-white">
+      <div className="max-w-7xl mx-auto px-6 text-center text-white">
         
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-12">
