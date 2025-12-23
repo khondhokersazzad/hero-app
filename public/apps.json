@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Health Tracker Pro",
+    "companyName": "VitalSoft",
+    "description": "Track your daily health activities, monitor vitals, and stay fit with smart insights.",
+    "size": 45,
+    "reviews": 12840,
+    "ratingAvg": 4.6,
+    "downloads": 29600000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1540 },
+      { "name": "4 star", "count": 4320 },
+      { "name": "5 star", "count": 5950 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Smart Finance",
+    "companyName": "Finora Inc.",
+    "description": "Manage expenses, track income, and plan your financial goals effortlessly.",
+    "size": 32,
+    "reviews": 9060,
+    "ratingAvg": 4.4,
+    "downloads": 18400000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1220 },
+      { "name": "4 star", "count": 2980 },
+      { "name": "5 star", "count": 4010 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Daily Planner",
+    "companyName": "TaskFlow",
+    "description": "Organize your day, boost productivity, and never miss important tasks.",
+    "size": 27,
+    "reviews": 15420,
+    "ratingAvg": 4.7,
+    "downloads": 32200000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 4380 },
+      { "name": "5 star", "count": 9340 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Language Buddy",
+    "companyName": "LinguaLabs",
+    "description": "Learn new languages with interactive lessons and real-life practice.",
+    "size": 58,
+    "reviews": 11080,
+    "ratingAvg": 4.5,
+    "downloads": 24800000,
+    "ratings": [
+      { "name": "1 star", "count": 360 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1380 },
+      { "name": "4 star", "count": 3620 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Fit Home Workout",
+    "companyName": "MoveX",
+    "description": "Home workout routines designed by professionals, no equipment needed.",
+    "size": 64,
+    "reviews": 17890,
+    "ratingAvg": 4.8,
+    "downloads": 41500000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 870 },
+      { "name": "4 star", "count": 4210 },
+      { "name": "5 star", "count": 12170 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Weather Pulse",
+    "companyName": "SkyNetics",
+    "description": "Accurate weather forecasts with real-time alerts and weekly insights.",
+    "size": 21,
+    "reviews": 6840,
+    "ratingAvg": 4.3,
+    "downloads": 12400000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 2380 },
+      { "name": "5 star", "count": 2650 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Note Keeper",
+    "companyName": "Paperless Co.",
+    "description": "Simple and secure note-taking app with cloud sync support.",
+    "size": 18,
+    "reviews": 4920,
+    "ratingAvg": 4.2,
+    "downloads": 8900000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 1670 },
+      { "name": "5 star", "count": 1730 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Secure Vault",
+    "companyName": "Lockify",
+    "description": "Protect your sensitive files and passwords with advanced encryption.",
+    "size": 52,
+    "reviews": 11320,
+    "ratingAvg": 4.6,
+    "downloads": 20400000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 3520 },
+      { "name": "5 star", "count": 6210 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Meditate Now",
+    "companyName": "MindEase",
+    "description": "Guided meditation sessions for stress relief and better sleep.",
+    "size": 39,
+    "reviews": 14980,
+    "ratingAvg": 4.7,
+    "downloads": 31800000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 4080 },
+      { "name": "5 star", "count": 9430 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Expense Log",
+    "companyName": "MoneyTrail",
+    "description": "Track daily expenses and visualize spending habits easily.",
+    "size": 26,
+    "reviews": 7580,
+    "ratingAvg": 4.4,
+    "downloads": 14600000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1340 },
+      { "name": "4 star", "count": 2580 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Photo Editor Plus",
+    "companyName": "PixCraft",
+    "description": "Edit photos professionally with filters, effects, and AI tools.",
+    "size": 74,
+    "reviews": 22140,
+    "ratingAvg": 4.5,
+    "downloads": 51200000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 740 },
+      { "name": "3 star", "count": 1820 },
+      { "name": "4 star", "count": 7060 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Study Buddy",
+    "companyName": "EduSpark",
+    "description": "Study planner with focus timer and progress tracking.",
+    "size": 34,
+    "reviews": 9640,
+    "ratingAvg": 4.6,
+    "downloads": 19800000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 1040 },
+      { "name": "4 star", "count": 3160 },
+      { "name": "5 star", "count": 4870 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Music Streamer",
+    "companyName": "WavePlay",
+    "description": "Stream millions of songs with personalized playlists.",
+    "size": 88,
+    "reviews": 28940,
+    "ratingAvg": 4.4,
+    "downloads": 76000000,
+    "ratings": [
+      { "name": "1 star", "count": 980 },
+      { "name": "2 star", "count": 1240 },
+      { "name": "3 star", "count": 3920 },
+      { "name": "4 star", "count": 9020 },
+      { "name": "5 star", "count": 13780 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Daily Quotes",
+    "companyName": "InspireMe",
+    "description": "Motivational quotes delivered daily to boost positivity.",
+    "size": 12,
+    "reviews": 3640,
+    "ratingAvg": 4.1,
+    "downloads": 6700000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 920 },
+      { "name": "4 star", "count": 1120 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Sleep Tracker",
+    "companyName": "Restify",
+    "description": "Analyze sleep patterns and improve sleep quality.",
+    "size": 41,
+    "reviews": 13260,
+    "ratingAvg": 4.7,
+    "downloads": 28500000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 3640 },
+      { "name": "5 star", "count": 8280 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "AI Chat Assistant",
+    "companyName": "BrainWave",
+    "description": "Smart AI assistant for daily tasks and instant answers.",
+    "size": 66,
+    "reviews": 19840,
+    "ratingAvg": 4.6,
+    "downloads": 45200000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1560 },
+      { "name": "4 star", "count": 6120 },
+      { "name": "5 star", "count": 9120 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Recipe Book",
+    "companyName": "CookMate",
+    "description": "Discover and save recipes from around the world.",
+    "size": 48,
+    "reviews": 10420,
+    "ratingAvg": 4.5,
+    "downloads": 22300000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1180 },
+      { "name": "4 star", "count": 3420 },
+      { "name": "5 star", "count": 5170 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Map Navigator",
+    "companyName": "RouteX",
+    "description": "Fast and accurate navigation with live traffic updates.",
+    "size": 92,
+    "reviews": 25460,
+    "ratingAvg": 4.3,
+    "downloads": 68900000,
+    "ratings": [
+      { "name": "1 star", "count": 1120 },
+      { "name": "2 star", "count": 1640 },
+      { "name": "3 star", "count": 4280 },
+      { "name": "4 star", "count": 7560 },
+      { "name": "5 star", "count": 10860 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "File Cleaner",
+    "companyName": "CleanOps",
+    "description": "Remove junk files and optimize device performance.",
+    "size": 24,
+    "reviews": 6840,
+    "ratingAvg": 4.2,
+    "downloads": 15800000,
+    "ratings": [
+      { "name": "1 star", "count": 330 },
+      { "name": "2 star", "count": 510 },
+      { "name": "3 star", "count": 1380 },
+      { "name": "4 star", "count": 2210 },
+      { "name": "5 star", "count": 2410 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/PZvgYd1w/mariia-shalabaieva-Ghq-UDw-V5-Y5-Q-unsplash.jpg",
+    "title": "Cloud Backup",
+    "companyName": "SafeCloud",
+    "description": "Secure cloud backup for photos, videos, and documents.",
+    "size": 57,
+    "reviews": 14280,
+    "ratingAvg": 4.6,
+    "downloads": 33600000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1240 },
+      { "name": "4 star", "count": 4260 },
+      { "name": "5 star", "count": 8010 }
+    ]
+  }
+
+]

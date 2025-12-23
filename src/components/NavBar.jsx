@@ -60,7 +60,7 @@ const Navbar = () => {
           {/* Static Buttons / Profile Placeholder */}
           <div className="flex items-center gap-3">
             <Link className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-md text-white" to="/auth/login">
-              <Github /> Login
+              <Github /> Contribute
             </Link>
             
           </div>
