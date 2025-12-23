@@ -1,4 +1,6 @@
 import { Link, NavLink } from "react-router";
+import Logo from "../assets/hero-logo.png"
+import { Github } from 'lucide-react';
 
 const Navbar = () => {
   // Static class for active links
@@ -12,7 +14,7 @@ const Navbar = () => {
         {/* Navbar Start: Logo */}
         <div className="navbar-start">
           <Link className="btn btn-ghost text-xl text-blue-500" to="/">
-            BloodLink
+            <img src={Logo} alt="Logo" />
           </Link>
         </div>
 
@@ -57,8 +59,8 @@ const Navbar = () => {
 
           {/* Static Buttons / Profile Placeholder */}
           <div className="flex items-center gap-3">
-            <Link className="btn btn-primary btn-sm" to="/auth/login">
-              Login
+            <Link className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-md text-white" to="/auth/login">
+              <Github /> Login
             </Link>
             
           </div>
