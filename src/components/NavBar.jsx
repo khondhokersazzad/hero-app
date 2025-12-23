@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-sm">
-      <div className="navbar container mx-auto px-6">
+      <div className="navbar max-w-7xl mx-auto px-6">
         
         {/* Navbar Start: Logo */}
         <div className="navbar-start">
@@ -53,13 +53,13 @@ const Navbar = () => {
             <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow-lg z-50">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/apps">Apps</Link></li>
-              <li><Link to="/install">Installatin</Link></li>
+              <li><Link to="/install">Installation</Link></li>
             </ul>
           </div>
 
           {/* Static Buttons / Profile Placeholder */}
           <div className="flex items-center gap-3">
-            <Link className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-md text-white" to="/auth/login">
+            <Link to='https://github.com/khondhokersazzad' className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] btn-md text-white">
               <Github /> Contribute
             </Link>
             

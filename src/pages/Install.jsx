@@ -8,7 +8,9 @@ import AppRow from "../components/AppRow";
 const Install = () => {
   const [collection, setCollection] = useState([]);
   const [appList, setAppList] = useState([]);
+  const [sortOrder, setSortOrder] = useState(""); // 🔹 NEW
 
+  // fetch all apps
   useEffect(() => {
     axios
       .get("/apps.json")
@@ -16,6 +18,7 @@ const Install = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  // filter installed apps
   useEffect(() => {
     if (collection.length > 0) {
       const storedIds = getStoredApps();
@@ -27,7 +30,18 @@ const Install = () => {
     }
   }, [collection]);
 
-  // temporary uninstall handler (UI only)
+  // 🔹 sorting logic (DO NOT mutate appList)
+  const sortedApps = [...appList].sort((a, b) => {
+    if (sortOrder === "high-low") {
+      return b.downloads - a.downloads;
+    }
+    if (sortOrder === "low-high") {
+      return a.downloads - b.downloads;
+    }
+    return 0;
+  });
+
+  // uninstall handler (UI only)
   const handleUninstall = (id) => {
     setAppList((prev) => prev.filter((app) => app.id !== id));
   };
@@ -46,10 +60,22 @@ const Install = () => {
       </div>
 
       <section className="px-4">
+        {/* Top bar */}
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-xl font-semibold">
-            Apps Found ({appList.length})
+            Apps Found ({sortedApps.length})
           </h1>
+
+          {/* 🔹 SORT DROPDOWN */}
+          <select
+            value={sortOrder}
+            onChange={(e) => setSortOrder(e.target.value)}
+            className="select select-bordered select-sm"
+          >
+            <option value="">Sort by Downloads</option>
+            <option value="high-low">High → Low</option>
+            <option value="low-high">Low → High</option>
+          </select>
         </div>
 
         <Tabs>
@@ -59,12 +85,12 @@ const Install = () => {
 
           <TabPanel>
             <div className="space-y-4">
-              {appList.length === 0 ? (
+              {sortedApps.length === 0 ? (
                 <p className="text-center text-gray-500">
                   No apps installed
                 </p>
               ) : (
-                appList.map((app) => (
+                sortedApps.map((app) => (
                   <AppRow
                     key={app.id}
                     app={app}
