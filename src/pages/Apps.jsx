@@ -9,7 +9,7 @@ const Apps = () => {
 
   useEffect(() => {
     axios
-      .get("/apps.json")
+      .get("../apps.json")
       .then((res) => setCollection(res.data))
       .catch((err) => console.log(err));
   }, []);
